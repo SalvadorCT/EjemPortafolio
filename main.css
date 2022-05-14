@@ -1,0 +1,153 @@
+:root {
+    --light-blue: #9ECEFA;
+    --White: hsl(0, 0%, 100%);
+    --gray:rgba(63, 63, 63, 0.544);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: auto;
+    background-color: #557B83;
+}
+.nav{
+    display: inline-flex;
+}
+.nav ul{
+    list-style: none;
+    display: inline-flex;
+}
+.nav ul > li {
+    padding: 15px;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: var(--White);
+    font-size: 25px;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    visibility: hidden;
+}
+.nav ul li a:hover{
+    border-bottom: 6px solid #39AEA9;
+    border-radius: 30%; 
+}
+.front{
+    width: 100%;
+    height: auto;
+    background-color: #39AEA9;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.info{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+.info h1{
+    font-size: 50px;
+}
+.bioresumen{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dowload{
+    background-color: #ff6464;
+    color: #fff;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+}
+.imgp{
+    width: 360px;
+    height: 360px;
+    border:20px solid #A2D5AB;
+    border-radius: 50%;
+    box-shadow:  16px 16px 32px #329995,
+             -16px -16px 32px #40c3bd;
+}
+.works{
+    width: 100%;
+    height: auto;
+    background-color: #E5EFC1;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.card div img {
+    width: 246px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .text-works {
+    width: auto;
+    height: auto;
+    font-size: 1em;
+    margin-bottom: 30px;
+    font-weight: 300;
+    padding: 5px;
+  }
+  .link-portafolio{
+    padding-left: 40px;
+  }
+  .container-detail {
+    margin-left: 20px;
+    padding-left: 40px;
+  }
+  .link-portafolio img{
+      padding-bottom: 45px;
+  }
+  .link-portafolio:hover {
+    color: #ff6464;
+    text-decoration: underline;
+  }
+  .dark {
+    width: auto;
+    height: auto;
+    background-color: #142850;
+    color: #fff;
+    border-radius: 16px;
+    padding: 5px 10px;
+    font-weight: bold;
+  }
+/* eliminar el ul */
+@media only screen and (max-width:600px){
+    ul{
+        visibility: hidden;
+    }
+    .icon{
+        width: 35px;
+        height: 35px;
+        visibility: visible;
+        padding-top: 10px
+    }
+    .icon:hover{
+        background-image: rgb(65, 128, 128);
+    }
+    .bb{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .card{
+        padding-bottom: 30px;
+    }
+}
+/* li{
+display: none;
+} */
