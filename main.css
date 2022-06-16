@@ -71,6 +71,9 @@ header {
     font-size: 16px;
     cursor: pointer;
 }
+.dowload:hover{
+    transform: scale(1.04);
+}
 .imgp{
     width: 360px;
     height: 360px;
