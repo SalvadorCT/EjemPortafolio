@@ -98,6 +98,9 @@ header {
     object-fit: cover;
     border-radius: 8px;
   }
+.card div img:hover {
+    transform: scale(1.03);
+}
   .text-works {
     width: auto;
     height: auto;
@@ -133,6 +136,12 @@ header {
 @media only screen and (max-width:600px){
     ul{
         visibility: hidden;
+    }
+    .front{
+        background-color: #D3EBCD;
+    }
+    .works{
+        background-color: #AEDBCE;
     }
     .icon{
         width: 35px;
